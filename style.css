@@ -1,0 +1,38 @@
+.list{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    background-color: #f3f3f3;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    min-width: 250px;
+}
+.list li{
+    display: list-item;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.icon{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.icon li{
+    margin-right: 10px;
+    display: inline-block;
+}
+.icon li a{
+    background-color: #ddd;
+    color: #000;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+.list li:hover{
+    background-color: blue; 
+    color: black;
+}
